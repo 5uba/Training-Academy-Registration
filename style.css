@@ -1,0 +1,101 @@
+/* BODY & BACKGROUND */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5); /* smooth gradient */
+    color: #222;
+}
+
+/* CONTAINER CARD */
+.container {
+    width: 700px;
+    background: #ffffff;
+    margin: 60px auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    color: #4b5563;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #4b5563;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* BUTTONS */
+.btn, .form-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 12px 22px;
+    background: #667eea;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover, .form-btn:hover {
+    background: #5a67d8;
+    transform: scale(1.05);
+}
+
+/* COURSES LIST */
+.courses {
+    text-align: left;
+    padding-left: 25px;
+    color: #1f2937;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/* FORM TABLE */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.form-table td {
+    padding: 10px 8px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+/* ALIGN BUTTONS */
+.buttons {
+    text-align: center;
+}
